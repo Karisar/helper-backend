@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "firstName": "Maija",
+        "lastName": "Akaa",
+        "hetu": "040404-0404"
+    },
+    {
+        "id": 2,
+        "firstName": "Seppo",
+        "lastName": "Alajärvi",
+        "hetu": "010101-0101"
+    },
+    {
+        "id": 3,
+        "firstName": "Tarja",
+        "lastName": "Enonkoski",
+        "hetu": "150601A983F"
+    },
+    {
+        "id": 4,
+        "firstName": "Miia",
+        "lastName": "Eura",
+        "hetu": "150600A937R"
+    },
+    {
+        "id": 5,
+        "firstName": "Matti",
+        "lastName": "Forssa",
+        "hetu": "150699-969A"
+    },
+    {
+        "id": 6,
+        "firstName": "Kirre",
+        "lastName": "Kouvola",
+        "hetu": "020678-948U"
+    }
+]
