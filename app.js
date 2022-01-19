@@ -19,14 +19,15 @@ app.get('/api/persons', (req, res) => {
 })
 
 app.post('/api/persons', (req, res) => {
-  // TODO: back voisi generoida id:n
-  console.log(_.maxBy(demodata, 'id')); // lodashista valmis funktio, ei tartte omaa for looppia viritellä
+  let newPerson = req.body;
   let maxId = _.maxBy(demodata, 'id')
-  console.log('new id : ' + (maxId.id + 1));
-  console.log(req.body);
-  demodata.push(req.body);
+
+  newPerson.id = (maxId.id + 1);
+  demodata.push(newPerson);
+
+  //  console.log(demodata);
   res.status(200);
-  console.log(demodata);
+  res.send(demodata);
 })
 
 app.listen(port, () => {
